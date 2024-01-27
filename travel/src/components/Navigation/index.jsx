@@ -18,7 +18,7 @@ function Navigation() {
                     <div className="nav-links">
                         <Link to={"/main"}>Главная</Link>
                         <Link to={"/excursion"}>Экскурсии</Link>
-                        <Link to={"/excursion#"}>Личный кабинет</Link>
+                        <Link to={"/excursion#"}>Лич. каб.</Link>
                     </div>
                 </div>
 
