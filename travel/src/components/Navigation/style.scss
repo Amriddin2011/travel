@@ -75,18 +75,4 @@
 
     }
 
-    @media (large-width: $large-screen)  {
-        .nav-wrapper {
-            background: url(../../imgs/sea.jpg), no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-color: rgb(14, 14, 14, 0.1);
-            background-blend-mode: darken;
-            color: snow;
-            width: 100%;
-            height: 52vh;
-            margin-bottom: 180px;
-        }
-    }
-
 }
