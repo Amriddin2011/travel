@@ -1,0 +1,17 @@
+@import '../../../styles/_samples.scss';
+
+div {
+    .p-1 {
+        text-align: center;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 25px
+    }
+
+    .btn-1 { 
+        @extend %button;
+        width: 230px;
+        height: 50px;
+        margin-left: 620px;
+    }
+}

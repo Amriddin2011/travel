@@ -1,0 +1,33 @@
+div {
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        .first {
+            margin-left: 70px;
+        }
+
+        .second {
+            display: grid;
+            grid-template-columns: 1fr;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+        
+        .third{
+            .third3{
+                display: grid;
+                grid-template-columns: 1fr 11fr;
+            }
+        }
+        .fourth{
+            .fourth4{
+                display: grid;
+                grid-template-columns: 1fr 11fr;
+            }
+        }
+    }
+}

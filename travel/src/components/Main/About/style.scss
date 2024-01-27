@@ -1,0 +1,29 @@
+@import '../../../styles/colors';
+
+div {
+    position: relative;
+    .about {
+        position: absolute;
+        width: 572px;
+        height: 476px;
+        text-align: center;
+        background-color: #ededed;
+        left: 760px;
+        bottom: 150px;
+        border-radius: 10px;
+        .about2{
+            padding: 85px;
+
+            h1{
+                color: $primary;
+            }
+
+            .first{
+                margin-bottom: 5px;
+            }
+            .second{
+                margin-top: 10px;
+            }
+        }
+    }
+}
