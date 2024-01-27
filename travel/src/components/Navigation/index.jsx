@@ -60,7 +60,6 @@ function Navigation() {
             <div id='footer'>
                 <Footer />
             </div>
-
         </div>
     );
 }
