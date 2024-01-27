@@ -3,9 +3,6 @@ import { Link, Outlet } from 'react-router-dom'
 import Footer from './Footer'
 import Baloon from '../../imgs/baloon.jpg'
 import PeroTravel from '../../imgs/peroTravel.png'
-import First from "../../imgs/first.png"
-import Second from "../../imgs/second.png"
-import Player from "../../imgs/player.png"
 
 function Navigation() {
     return (
