@@ -52,68 +52,79 @@ div {
                 height: 50px;
             }
         }
+    }
 
-
-
-
-        @media (max-width: $large) {
-            .nav-wrapper {
-                .start {
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    padding: 20px;
-                }
-            }
-
-        }
-
-        @media (max-width: 810px) {
-            .nav-wrapper {
-                height: 12vh;
-                margin-bottom: 20px;
-
-                .start {
-                    display: grid;
-                    grid-template-columns: 1fr 1.9fr;
-                    padding: 20px;
-                }
+    @media (max-width: $large) {
+        .nav-wrapper {
+            .start {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 20px;
             }
         }
 
-        @media (max-width: $medium) {
-            .nav-wrapper {
+    }
 
-                .start {
-                    display: grid;
-                    grid-template-columns: 1fr 2fr;
-                    padding: 20px;
-                }
+    @media (max-width: 810px) {
+        .nav-wrapper {
+            height: 12vh;
+            margin-bottom: 20px;
+
+            .start {
+                display: grid;
+                grid-template-columns: 1fr 1.9fr;
+                padding: 20px;
+            }
+        }
+    }
+
+    @media (max-width: $medium) {
+        .nav-wrapper {
+
+            .start {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                padding: 20px;
+            }
+        }
+    }
+
+
+
+    @media (max-width: 520px) {
+        .nav-wrapper {
+            .start {
+                display: grid;
+                grid-template-columns: 1fr 2.5fr;
+                padding: 20px;
             }
         }
 
+    }
 
+    @media (max-width: $small) {
+        .nav-wrapper {
+            .start {
+                display: grid;
+                grid-template-columns: 1fr 8.9fr;
+                padding: 11px;
 
-        @media (max-width: 520px) {
-            .nav-wrapper {
-                .start {
-                    display: grid;
-                    grid-template-columns: 1fr 2.5fr;
-                    padding: 20px;
+                .nav-img {
+                    margin-left: 34px;
                 }
             }
-
         }
+    }
 
-        @media (max-width: $small) {
-            .nav-wrapper {
-                .start {
-                    display: grid;
-                    grid-template-columns: 1fr 8.9fr;
-                    padding: 11px;
+    @media (max-width: 372px) {
+        .nav-wrapper {
+            .start {
+                display: grid;
+                grid-template-columns: 1fr 9fr;
+                padding: 16px;
 
-                    .nav-img {
-                        margin-left: 34px;
-                    }
+                .nav-img {
+                    margin-left: 0px;
                 }
             }
         }
