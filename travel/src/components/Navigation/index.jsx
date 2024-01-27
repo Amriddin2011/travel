@@ -33,24 +33,6 @@ function Navigation() {
                 <div className="button">
                     <button>К экскурсиям -›</button>
                 </div>
-
-                <div className="recomendations">
-                    <img
-                    className='first'
-                     src={First}
-                     alt="This is recomendation" 
-                     />
-                    <img
-                    className='second'
-                     src={Second}
-                     alt="This is recomendation" 
-                     />
-                    <img
-                    className='player'
-                     src={Player}
-                     alt="This is recomendation" 
-                     />
-                </div>
             </div>
 
             <div id='outlet'>
