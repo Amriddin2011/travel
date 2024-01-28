@@ -3,6 +3,9 @@ import { Link, Outlet } from 'react-router-dom'
 import Footer from './Footer'
 import Baloon from '../../imgs/baloon.jpg'
 import PeroTravel from '../../imgs/peroTravel.png'
+import First from '../../imgs/first.png'
+import Second from '../../imgs/second.png'
+import Player from '../../imgs/player.png'
 
 function Navigation() {
     return (
@@ -29,6 +32,12 @@ function Navigation() {
 
                 <div className="button">
                     <button>К экскурсиям -›</button>
+                </div>
+
+                <div className="recomendations">
+                    <img className='first' src={First} alt="This is recomendation" />
+                    <img className='second' src={Second} alt="This is recomendation" />
+                    <img className='player' src={Player} alt="This is recomendation" />
                 </div>
             </div>
 
