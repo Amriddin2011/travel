@@ -53,24 +53,115 @@ div {
             }
         }
 
-        .recomendations{
+        .recomendations {
             position: relative;
             margin-top: 120px;
-            
-            .first{
+
+            .first {
                 position: absolute;
-                left: 860px;
+                left: 58%;
             }
 
-            .second{
+            .second {
                 position: absolute;
-                left: 1239px;
+                left: 84%;
             }
 
-            .player{
+            .player {
                 position: absolute;
                 top: 79px;
-                left: 1000px;
+                left: 999px;
+            }
+        }
+    }
+
+    @media (max-width: 1420px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 50%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 64%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1224px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 48%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 62%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1157px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 46%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 60%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 44%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 58%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1030px) {
+        .nav-wrapper {
+
+            .recomendations {
+                .first {
+                    left: 42%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 56%;
+                }
             }
         }
     }
@@ -81,12 +172,65 @@ div {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 padding: 20px;
+
                 .nav-img {
                     margin-left: 44px;
                 }
             }
+
+            .recomendations {
+                .first {
+                    left: 40%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 54%;
+                }
+            }
         }
 
+    }
+
+    @media (max-width: 920px) {
+        .nav-wrapper {
+            height: 58vh;
+
+            .recomendations {
+                .first {
+                    left: 38%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 52%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 890px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 34%;
+                }
+
+                .second {
+                    left: 80%;
+                }
+
+                .player {
+                    left: 48%;
+                }
+            }
+        }
     }
 
     @media (max-width: 810px) {
@@ -100,15 +244,15 @@ div {
                 padding: 20px;
             }
 
-            .nav-p{
+            .nav-p {
                 display: none;
             }
 
-            .button{
+            .button {
                 display: none;
             }
 
-            .recomendations{
+            .recomendations {
                 display: none;
             }
         }
