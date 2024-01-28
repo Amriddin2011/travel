@@ -2,7 +2,10 @@
 
 .values-wrapper {
     margin-top: 50px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
 
     h1 {
         color: $primary;
@@ -29,6 +32,51 @@
                 }
 
                 padding-top: 45px;
+            }
+        }
+    }
+
+    @media (max-width: 1089px) {
+        .values-content {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+@media (max-width: 782px) {
+    .values-wrapper{
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 582px) {
+    .values-wrapper{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 544px) {
+    .values-wrapper{
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 435px) {
+    .values-wrapper{
+        padding-left: 0px;
+
+        .values-content{
+            .value-item{
+                div{
+                    h2{
+                        margin-left: 0;
+                    }
+
+                    p{
+                        margin-left: 0;
+                    }
+                }
             }
         }
     }
