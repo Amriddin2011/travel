@@ -5,8 +5,11 @@ function popularExcursions() {
         <div>
             <div>
                 <div className="popularExcursions-wrapper">
-                    <h1>Популярные экскурсии</h1>
-                    <a href="#cards/all">Смотреть все</a>
+                    <div className="h1AndA">
+                        <h1>Популярные экскурсии</h1>
+                        <a href="#cards/all">Смотреть все</a>
+                    </div>
+
                     <div className="cards">
                         <div id='cards' className="card1">
                             <div className="card-first">

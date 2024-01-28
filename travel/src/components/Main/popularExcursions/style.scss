@@ -1,253 +1,322 @@
 @import '../../../styles/colors';
 @import '../../../styles/samples';
+@import '../../../styles/size';
 
-.popularExcursions-wrapper {
-    position: relative;
-    overflow: auto;
-
-    h1 {
-        margin-left: 75px;
-        color: $primary;
-        margin-bottom: 20px;
-    }
-
-    a {
-        position: absolute;
-        top: 17px;
-        right: 100px;
-        color: $dark;
-    }
-
-    .cards {
+div {
+    .popularExcursions-wrapper {
         position: relative;
-        margin-bottom: 700px;
+        overflow: auto;
 
-        .card1 {
-            background: url(../../../imgs/1.png), no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-color: rgb(14, 14, 14, 0.1);
-            background-blend-mode: darken;
-            color: snow;
-            width: 360px;
-            height: 497px;
-
-            position: absolute;
-            border-radius: 15px;
-            margin-bottom: 50px;
-            padding-bottom: 140px;
-
-            .card-first {
-                position: absolute;
-                bottom: 40px;
-                margin-left: 20px;
-                font-family: sans-serif;
-
-                h5 {
-                    color: $gold;
-                    font-size: 16px;
-                }
-
-                .money-hour {
-                    margin-top: 2px;
-                    display: grid;
-                    grid-template-columns: 1fr 2fr;
-
-                    p {
-                        filter: grayscale(100%);
-                    }
-                }
-
-                .p {
-                    margin-top: 7px;
-                    margin-right: 7px;
-                }
-
-                p {
-                    font-size: 14px
-                }
-
-                button {
-                    @extend %button;
-                    margin-top: 20px;
-                    width: 160px;
-                    height: 40px;
-                    font-size: 14px;
-                }
-            }
-
+        h1 {
+            margin-left: 75px;
+            color: $primary;
+            margin-bottom: 20px;
         }
 
-        .card2 {
-            background: url(../../../imgs/2.png), no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-color: rgb(14, 14, 14, 0.1);
-            background-blend-mode: darken;
-            color: snow;
-            width: 360px;
-            height: 497px;
-
+        a {
             position: absolute;
-            border-radius: 15px;
-            left: 367px;
-            margin-bottom: 50px;
-            padding-bottom: 140px;
-
-            .card-second {
-                position: absolute;
-                bottom: 40px;
-                margin-left: 20px;
-                font-family: sans-serif;
-
-                h5 {
-                    color: $gold;
-                    font-size: 16px;
-                }
-
-                .money-hour {
-                    margin-top: 2px;
-                    display: grid;
-                    grid-template-columns: 1fr 2fr;
-
-                    p {
-                        filter: grayscale(100%);
-                    }
-                }
-
-                .p {
-                    margin-top: 7px;
-                    margin-right: 7px;
-                }
-
-                p {
-                    font-size: 14px
-                }
-
-                button {
-                    @extend %button;
-                    margin-top: 20px;
-                    width: 160px;
-                    height: 40px;
-                    font-size: 14px;
-                }
-            }
-
+            top: 17px;
+            right: 100px;
+            color: $dark;
         }
 
-        .card3 {
-            background: url(../../../imgs/3.png), no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-color: rgb(14, 14, 14, 0.1);
-            background-blend-mode: darken;
-            color: snow;
-            width: 360px;
-            height: 497px;
+        .cards {
+            position: relative;
+            margin-bottom: 700px;
 
-            position: absolute;
-            border-radius: 15px;
-            left: 734px;
-            margin-bottom: 50px;
-            padding-bottom: 140px;
+            .card1 {
+                background: url(../../../imgs/1.png), no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: rgb(14, 14, 14, 0.1);
+                background-blend-mode: darken;
+                color: snow;
+                width: 360px;
+                height: 497px;
 
-            .card-third {
                 position: absolute;
-                bottom: 40px;
-                margin-left: 20px;
-                font-family: sans-serif;
+                border-radius: 15px;
+                margin-bottom: 50px;
+                padding-bottom: 140px;
 
-                h5 {
-                    color: $gold;
-                    font-size: 16px;
-                }
+                .card-first {
+                    position: absolute;
+                    bottom: 40px;
+                    margin-left: 20px;
+                    font-family: sans-serif;
 
-                .money-hour {
-                    margin-top: 2px;
-                    display: grid;
-                    grid-template-columns: 1fr 2fr;
+                    h5 {
+                        color: $gold;
+                        font-size: 16px;
+                    }
+
+                    .money-hour {
+                        margin-top: 2px;
+                        display: grid;
+                        grid-template-columns: 1fr 2fr;
+
+                        p {
+                            filter: grayscale(100%);
+                        }
+                    }
+
+                    .p {
+                        margin-top: 7px;
+                        margin-right: 7px;
+                    }
 
                     p {
-                        filter: grayscale(100%);
+                        font-size: 14px
+                    }
+
+                    button {
+                        @extend %button;
+                        margin-top: 20px;
+                        width: 160px;
+                        height: 40px;
+                        font-size: 14px;
                     }
                 }
 
-                .p {
-                    margin-top: 7px;
-                    margin-right: 7px;
-                }
-
-                p {
-                    font-size: 14px
-                }
-
-                button {
-                    @extend %button;
-                    margin-top: 20px;
-                    width: 160px;
-                    height: 40px;
-                    font-size: 14px;
-                }
             }
 
+            .card2 {
+                background: url(../../../imgs/2.png), no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: rgb(14, 14, 14, 0.1);
+                background-blend-mode: darken;
+                color: snow;
+                width: 360px;
+                height: 497px;
+
+                position: absolute;
+                border-radius: 15px;
+                left: 367px;
+                margin-bottom: 50px;
+                padding-bottom: 140px;
+
+                .card-second {
+                    position: absolute;
+                    bottom: 40px;
+                    margin-left: 20px;
+                    font-family: sans-serif;
+
+                    h5 {
+                        color: $gold;
+                        font-size: 16px;
+                    }
+
+                    .money-hour {
+                        margin-top: 2px;
+                        display: grid;
+                        grid-template-columns: 1fr 2fr;
+
+                        p {
+                            filter: grayscale(100%);
+                        }
+                    }
+
+                    .p {
+                        margin-top: 7px;
+                        margin-right: 7px;
+                    }
+
+                    p {
+                        font-size: 14px
+                    }
+
+                    button {
+                        @extend %button;
+                        margin-top: 20px;
+                        width: 160px;
+                        height: 40px;
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .card3 {
+                background: url(../../../imgs/3.png), no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: rgb(14, 14, 14, 0.1);
+                background-blend-mode: darken;
+                color: snow;
+                width: 360px;
+                height: 497px;
+
+                position: absolute;
+                border-radius: 15px;
+                left: 734px;
+                margin-bottom: 50px;
+                padding-bottom: 140px;
+
+                .card-third {
+                    position: absolute;
+                    bottom: 40px;
+                    margin-left: 20px;
+                    font-family: sans-serif;
+
+                    h5 {
+                        color: $gold;
+                        font-size: 16px;
+                    }
+
+                    .money-hour {
+                        margin-top: 2px;
+                        display: grid;
+                        grid-template-columns: 1fr 2fr;
+
+                        p {
+                            filter: grayscale(100%);
+                        }
+                    }
+
+                    .p {
+                        margin-top: 7px;
+                        margin-right: 7px;
+                    }
+
+                    p {
+                        font-size: 14px
+                    }
+
+                    button {
+                        @extend %button;
+                        margin-top: 20px;
+                        width: 160px;
+                        height: 40px;
+                        font-size: 14px;
+                    }
+                }
+
+            }
+
+            .card4 {
+                background: url(.././../../imgs/4.png), no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-color: rgb(14, 14, 14, 0.1);
+                background-blend-mode: darken;
+                color: snow;
+                width: 360px;
+                height: 497px;
+
+                position: absolute;
+                border-radius: 15px;
+                left: 1101px;
+                margin-bottom: 50px;
+                padding-bottom: 140px;
+
+                .card-fourth {
+                    position: absolute;
+                    bottom: 40px;
+                    margin-left: 20px;
+                    font-family: sans-serif;
+
+                    h5 {
+                        color: $gold;
+                        font-size: 16px;
+                    }
+
+                    .money-hour {
+                        margin-top: 2px;
+                        display: grid;
+                        grid-template-columns: 1fr 2fr;
+
+                        p {
+                            filter: grayscale(100%);
+                        }
+                    }
+
+                    .p {
+                        margin-top: 7px;
+                        margin-right: 7px;
+                    }
+
+                    p {
+                        font-size: 14px
+                    }
+
+                    button {
+                        @extend %button;
+                        margin-top: 20px;
+                        width: 160px;
+                        height: 40px;
+                        font-size: 14px;
+                    }
+                }
+
+            }
         }
 
-        .card4 {
-            background: url(.././../../imgs/4.png), no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-color: rgb(14, 14, 14, 0.1);
-            background-blend-mode: darken;
-            color: snow;
-            width: 360px;
-            height: 497px;
+    }
 
-            position: absolute;
-            border-radius: 15px;
-            left: 1101px;
-            margin-bottom: 50px;
-            padding-bottom: 140px;
-
-            .card-fourth {
-                position: absolute;
-                bottom: 40px;
-                margin-left: 20px;
-                font-family: sans-serif;
-
-                h5 {
-                    color: $gold;
-                    font-size: 16px;
-                }
-
-                .money-hour {
-                    margin-top: 2px;
-                    display: grid;
-                    grid-template-columns: 1fr 2fr;
-
-                    p {
-                        filter: grayscale(100%);
-                    }
-                }
-
-                .p {
-                    margin-top: 7px;
-                    margin-right: 7px;
-                }
-
-                p {
-                    font-size: 14px
-                }
-
-                button {
-                    @extend %button;
-                    margin-top: 20px;
-                    width: 160px;
-                    height: 40px;
-                    font-size: 14px;
-                }
+    @media (max-width: 725px) {
+        .popularExcursions-wrapper {
+            h1 {
+                margin-left: 55px;
             }
-
         }
     }
 
+    @media (max-width: 678px) {
+        .popularExcursions-wrapper {
+            h1 {
+                margin-left: 35px;
+            }
+
+            a {
+                right: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 566px) {
+        .popularExcursions-wrapper {
+            h1 {
+                margin-left: 15px;
+            }
+
+            a {
+                right: 10px;
+            }
+        }
+    }
+
+    @media (max-width: 566px) {
+        .popularExcursions-wrapper {
+            .h1AndA {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                h1 {
+                    margin-left: 15px;
+                }
+
+                a {
+                    right: 60px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        .popularExcursions-wrapper {
+            .h1AndA {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                h1 {
+                    margin-left: 15px;
+                }
+
+                a {
+                    right: 40px;
+                }
+            }
+        }
+    }
 }
