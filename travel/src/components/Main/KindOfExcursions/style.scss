@@ -3,8 +3,6 @@
 div {
     .p-1 {
         text-align: center;
-        margin-left: 400px;
-        margin-right: 400px;
         margin-bottom: 25px
     }
 
@@ -13,5 +11,53 @@ div {
         width: 230px;
         height: 50px;
         margin-left: 620px;
+    }
+
+    @media (max-width: 1450px) {
+        .btn-1{
+            margin-left: 540px;
+        }
+    }
+
+    @media (max-width: 1160px) {
+        .btn-1{
+            margin-left: 500px;
+        }
+    }
+
+    @media (max-width: 1060px) {
+        .btn-1{
+            margin-left: 450px;
+        }
+    }
+
+    @media (max-width: 960px) {
+        .btn-1{
+            margin-left: 380px;
+        }
+    }
+
+    @media (max-width: 850px) {
+        .btn-1{
+            margin-left: 320px;
+        }
+    }
+
+    @media (max-width: 745px) {
+        .btn-1{
+            margin-left: 210px;
+        }
+    }
+
+    @media (max-width: 550px) {
+        .btn-1{
+            margin-left: 110px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        .btn-1{
+            margin-left: 60px;
+        }
     }
 }

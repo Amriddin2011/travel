@@ -12,36 +12,39 @@ function Gallery() {
     return (
         <div>
             <div className="gallery-wrapper">
-                <h1>Галерея</h1>
-                <a href="#imgs/all">Смотреть все</a>
+                <div className="h1AndA">
+                    <h1>Галерея</h1>
+                    <a href="#imgs/all">Смотреть все</a>
+                </div>
+
                 <div className="pictures">
                     <img className="p-8"
-                     src={Picture8} 
-                     alt="The picture of gallery" />
+                        src={Picture8}
+                        alt="The picture of gallery" />
                     <img className="p-2"
-                     src={Picture2} 
-                     alt="The picture of gallery" />
+                        src={Picture2}
+                        alt="The picture of gallery" />
                     <img className="p-3"
-                     src={Picture3} 
-                     alt="The picture of gallery" />
+                        src={Picture3}
+                        alt="The picture of gallery" />
                     <img className="p-4"
-                     src={Picture4} 
-                     alt="The picture of gallery" />
+                        src={Picture4}
+                        alt="The picture of gallery" />
                     <img className="p-5"
-                     src={Picture5} 
-                     alt="The picture of gallery" />
+                        src={Picture5}
+                        alt="The picture of gallery" />
                     <img className="p-6"
-                     src={Picture6} 
-                     alt="The picture of gallery" />
+                        src={Picture6}
+                        alt="The picture of gallery" />
                     <img className="p-7"
-                     src={Picture7} 
-                     alt="The picture of gallery" />
+                        src={Picture7}
+                        alt="The picture of gallery" />
                     <img className="p-1"
-                     src={Picture1} 
-                     alt="The picture of gallery" />
+                        src={Picture1}
+                        alt="The picture of gallery" />
                 </div>
                 <div className="null">
-                    
+
                 </div>
             </div>
         </div>
