@@ -111,7 +111,7 @@ div {
         }
     }
 
-    @media (max-width: 1157px) {
+    @media (max-width: 1197px) {
         .nav-wrapper {
             .recomendations {
                 .first {
@@ -119,11 +119,29 @@ div {
                 }
 
                 .second {
-                    left: 80%;
+                    left: 78%;
                 }
 
                 .player {
                     left: 60%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1157px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 43%;
+                }
+
+                .second {
+                    left: 77%;
+                }
+
+                .player {
+                    left: 57%;
                 }
             }
         }
@@ -137,7 +155,7 @@ div {
                 }
 
                 .second {
-                    left: 80%;
+                    left: 77%;
                 }
 
                 .player {
@@ -156,7 +174,7 @@ div {
                 }
 
                 .second {
-                    left: 80%;
+                    left: 77%;
                 }
 
                 .player {

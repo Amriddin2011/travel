@@ -64,7 +64,84 @@ div {
         .null {
             margin-bottom: 700px;
         }
+        
 
+        @media (max-width: 1450px) {
+            .pictures{
+                .p-1{
+                    display: none;
+                }
+
+                .p-4{
+                    width: 266px;
+                    height: 263px;
+                    top: 375px;
+                    left: 880px;
+                }
+            }
+        }
+        
+        @media (max-width: 1160px) {
+            .pictures{
+
+                .p-2{
+                    left: 250px;
+                }
+
+                .p-3{
+                    left: 622px;
+                }
+
+                .p-4{
+                    width: 266px;
+                    height: 263px;
+                    top: 375px;
+                    left: 622px;
+                }
+
+                .p-6{
+                    display: none;
+                }
+
+                .p-7{
+                    display: none;
+                }
+
+                .p-8{
+                    width: 217px;
+                    height: 264px;
+                }
+            }
+        }
+
+        @media (max-width: 908px) {
+            .pictures{
+                .p-4{
+                    display: none;
+                }
+                
+                .p-3{
+                    display: none;
+                }
+            }
+        }
+
+        @media (max-width: 630px) {
+            .pictures{
+                .p-8{
+                    display: none;
+                }
+
+                .p-5{
+                    display: none;
+                }
+
+                .p-2{
+                    left: 30px;
+                }
+            }
+        }
+        
         @media (max-width: 725px) {
             h1 {
                 margin-left: 55px;
