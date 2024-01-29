@@ -151,25 +151,6 @@ div {
         .nav-wrapper {
             .recomendations {
                 .first {
-                    left: 44%;
-                }
-
-                .second {
-                    left: 77%;
-                }
-
-                .player {
-                    left: 58%;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 1030px) {
-        .nav-wrapper {
-
-            .recomendations {
-                .first {
                     left: 42%;
                 }
 
@@ -184,7 +165,26 @@ div {
         }
     }
 
-    @media (max-width: $large) {
+    @media (max-width: 1033px) {
+        .nav-wrapper {
+
+            .recomendations {
+                .first {
+                    left: 38%;
+                }
+
+                .second {
+                    left: 75%;
+                }
+
+                .player {
+                    left: 52%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 996px) {
         .nav-wrapper {
             .start {
                 display: grid;
@@ -198,35 +198,35 @@ div {
 
             .recomendations {
                 .first {
-                    left: 40%;
+                    left: 34%;
                 }
 
                 .second {
-                    left: 80%;
+                    left: 74%;
                 }
 
                 .player {
-                    left: 54%;
+                    left: 48%;
                 }
             }
         }
 
     }
 
-    @media (max-width: 920px) {
+    @media (max-width: 930px) {
         .nav-wrapper {
 
             .recomendations {
                 .first {
-                    left: 38%;
+                    left: 30%;
                 }
 
                 .second {
-                    left: 80%;
+                    left: 72%;
                 }
 
                 .player {
-                    left: 52%;
+                    left: 44%;
                 }
             }
         }
@@ -236,15 +236,33 @@ div {
         .nav-wrapper {
             .recomendations {
                 .first {
-                    left: 34%;
+                    left: 26%;
                 }
 
                 .second {
-                    left: 80%;
+                    left: 70%;
                 }
 
                 .player {
-                    left: 48%;
+                    left: 40%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 850px) {
+        .nav-wrapper {
+            .recomendations {
+                .first {
+                    left: 22%;
+                }
+
+                .second {
+                    left: 68%;
+                }
+
+                .player {
+                    left: 36%;
                 }
             }
         }

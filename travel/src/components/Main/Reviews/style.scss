@@ -27,7 +27,7 @@ div {
                 width: 630px;
                 height: 242px;
                 background-color: #ededed;
-                margin-bottom: 170px;
+                margin-bottom: 2px;
                 padding: 50px;
                 display: grid;
                 grid-template-columns: 1fr 1fr;
@@ -43,6 +43,62 @@ div {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 border-radius: 15px;
+            }
+        }
+
+        @media (max-width: 725px) {
+            h1 {
+                margin-left: 55px;
+            }
+        }
+
+        @media (max-width: 678px) {
+            h1 {
+                margin-left: 35px;
+            }
+
+            a {
+                right: 30px;
+            }
+        }
+
+        @media (max-width: 566px) {
+            h1 {
+                margin-left: 15px;
+            }
+
+            a {
+                right: 10px;
+            }
+        }
+
+        @media (max-width: 566px) {
+            .h1AndA {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                h1 {
+                    margin-left: 15px;
+                }
+
+                a {
+                    right: 60px;
+                }
+            }
+        }
+
+        @media (max-width: 500px) {
+            .h1AndA {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                h1 {
+                    margin-left: 15px;
+                }
+
+                a {
+                    right: 40px;
+                }
             }
         }
     }

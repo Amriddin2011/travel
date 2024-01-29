@@ -6,8 +6,11 @@ function Reviews() {
     return (
         <div>
             <div className="reviews-wrapper">
-                <h1>Отзывы</h1>
-                <a href="#reviews/all">Смотреть все</a>
+                <div className="h1AndA">
+                    <h1>Отзывы</h1>
+                    <a href="#reviews/all">Смотреть все</a>
+                </div>
+
                 <div className="divs">
                     <div className="div1">
                         <img src={review1} alt="The picture of review" />
